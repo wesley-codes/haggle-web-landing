@@ -1,12 +1,16 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Main from '../components/Main/Main';
+import Banner from '../components/Banner/Banner';
+import SecondBanner from '../components/Banner/SecondBanner';
+import Intro from '../components/Intro/Intro';
+
 
 const Buypage = () => {
 	return (
 		<>
-			<Header />
-			<Main />
+			
+			<Banner />
+			<SecondBanner />
+			<Intro/>
 		</>
 	);
 };

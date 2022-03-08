@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../components/layout/header'
+import SellBanner from '../components/Banner/SellBanner'
 
 const SellPage = () => {
   return (
    <>
    
-   <Header />
+   <SellBanner/>
    </>
   )
 }

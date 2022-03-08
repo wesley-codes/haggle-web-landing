@@ -1,18 +1,21 @@
 import './App.css';
-import BuyPage from './pages/Buypage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Header from './components/Header/Header';
+import Buypage from './pages/Buypage';
 import SellPage from './pages/SellPage';
 
 function App() {
 	return (
+		<>
+			
 		<Router>
-				<div className="App">
-			<Routes>
-					<Route path="/" element={<BuyPage   />} />
-					<Route path="/sell" element={<SellPage />} />
-			</Routes>
-				</div>
+				<Header />
+				<Routes>
+					<Route path='/' element={<Buypage/> }/>
+					<Route path='/sell' element={<SellPage/>}/>
+				</Routes>
 		</Router>
+		</>
 	);
 }
 
