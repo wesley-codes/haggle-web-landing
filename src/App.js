@@ -9,7 +9,7 @@ function App() {
 		<>
 			
 		<Router>
-				<Header />
+			{/* 	<Header /> */}
 				<Routes>
 					<Route path='/' element={<Buypage/> }/>
 					<Route path='/sell' element={<SellPage/>}/>

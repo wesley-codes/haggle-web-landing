@@ -163,3 +163,15 @@ object-fit: cover;
   }
 
 `
+
+//======SHOE bANNER
+
+
+export const ShoeBannerContainer = styled.div`
+
+
+`
+
+export const ShoeBannerImage = styled.img`
+
+`

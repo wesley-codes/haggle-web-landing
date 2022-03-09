@@ -19,9 +19,11 @@ const Intro = () => {
   return (
     <IntroSection>
       <IntroInnerContainer>
+
+      <IntroSecondImage src={PayInstallments} />
+
         <IntrofirstImage src={BuyerOrder} />
 
-        <IntroSecondImage src={PayInstallments} />
 
         <IntroThirdImage src={EmptyPage} />
 

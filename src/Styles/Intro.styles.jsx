@@ -64,7 +64,7 @@ export const IntroCircle = styled(Circle)`
     display: flex;
 justify-content: center;
 align-items: center;
-
+font-size:xx-large
 
 
 `
@@ -74,8 +74,8 @@ margin: 2%;
 `
 
 export const VerticalLine = styled.div`
-border-left: 2px solid #707070;
+border-left: 2px solid green;
   height: 100px;
-  margin-left: 35px    
+  margin-left: 25px    
 
 `
